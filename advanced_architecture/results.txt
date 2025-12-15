@@ -1,0 +1,397 @@
+fine tune model:
+
+
+Epoch 25/30
+  Train Loss: 0.2045
+  Val RMSE: 0.4747
+  Val MAE: 0.4435
+  Val R²: -0.0003
+  Learning Rate: 1.00e-05
+  No improvement (10/10)
+
+Early stopping triggered at epoch 25
+Best validation RMSE: 0.4735 at epoch 15
+
+
+
+
+
+
+
+
+
+fine tune v1 model:
+Train Epoch 13: 100%|██████████| 14/14 [00:03<00:00,  4.06it/s]
+Epoch 13/50 train_loss=0.4505 val_RMSE=0.5109
+Train Epoch 14: 100%|██████████| 14/14 [00:03<00:00,  4.15it/s]
+Epoch 14/50 train_loss=0.4648 val_RMSE=0.5246
+
+Validation Metrics:
+Number of valid samples: 35
+Predictions range: [0.12, 0.61]
+True values range: [0.00, 1.00]
+
+
+Validation: 100%|██████████| 6/6 [00:00<00:00, 20.12it/s]
+Epoch 60/60: Train Loss=0.0026, Val RMSE=0.6199, Val Acc=1.0000
+
+💾 Saving results...
+  Final model saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_final.pt
+  Training history saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_history.csv
+
+============================================================
+🎉 Training Complete!
+  Best validation RMSE: 0.4682
+  Final validation RMSE: 0.6199
+  Final validation accuracy: 1.0000
+============================================================
+
+============================================================
+Epoch 5/50
+============================================================
+Train Loss: 0.5044
+
+Regression Metrics:
+  Val RMSE: 0.4690
+  Val MAE:  0.4440
+  Val R²:   0.0236
+
+Classification Metrics (PHQ8 >= 10):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+Epoch 4/50
+============================================================
+Train Loss: 0.4624
+
+Regression Metrics:
+  Val RMSE: 0.4867
+  Val MAE:  0.4210
+  Val R²:   -0.0514
+
+Classification Metrics (PHQ8 >= 10):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+Learning Rate: 2.00e-05
+
+No improvement (2/15)
+Epoch 5/50: 100%|██████████| 27/27 [00:01<00:00, 18.22it/s, loss=0.62]
+
+============================================================
+Epoch 5/50
+============================================================
+Train Loss: 0.4640
+
+Regression Metrics:
+  Val RMSE: 0.5114
+  Val MAE:  0.3944
+  Val R²:   -0.1607
+
+Classification Metrics (PHQ8 >= 10):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+Learning Rate: 2.00e-05
+
+No improvement (3/15)
+Epoch 6/50: 100%|██████████| 27/27 [00:01<00:00, 17.80it/s, loss=0.408]
+
+============================================================
+Epoch 6/50
+============================================================
+Train Loss: 0.4501
+
+Regression Metrics:
+  Val RMSE: 0.4889
+  Val MAE:  0.4169
+  Val R²:   -0.0610
+
+Classification Metrics (PHQ8 >= 10):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+Learning Rate: 2.00e-05
+
+No improvement (4/15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advanced multimodal model:
+
+💾 Saving results...
+  Final model saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_final.pt
+  Training history saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_history.csv
+
+============================================================
+🎉 Training Complete!
+  Best validation RMSE: 0.4685
+  Final validation RMSE: 0.6398
+  Final validation accuracy: 1.0000
+============================================================
+
+lass 1: 47 (100.0%)
+Loaded best model for evaluation
+
+📈 Evaluating model on test set...
+Evaluating: 100%|██████████| 8/8 [00:00<00:00, 23.21it/s]
+/home/dipanjan/.conda/envs/llama-env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+=== Evaluation Metrics ===
+
+Regression Metrics (PHQ8):
+RMSE: nan
+MAE: nan
+R²: nan
+Pearson r: nan (p=nan)
+
+Classification Metrics (Emotion):
+Accuracy: 0.0000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+
+Confusion Matrix:
+[[ 0  0]
+ [47  0]]
+  Test metrics saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_test_metrics.json
+
+another set of results:
+11.06it/s, Loss=0.0025]
+Validation: 100%|██████████| 6/6 [00:00<00:00, 20.56it/s]
+Epoch 60/60: Train Loss=0.0025, Val RMSE=0.6259, Val Acc=1.0000
+
+💾 Saving results...
+  Final model saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_final.pt
+  Training history saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_history.csv
+
+📊 Loading test data...
+Test samples: 47
+🔧 Building test dataset...
+
+Dataset Statistics:
+Total samples processed: 47
+Valid samples created: 47
+Samples with valid PHQ8: 0
+Samples with audio: 47
+Samples with video: 0
+
+Emotion Distribution:
+Class 0: 0 (0.0%)
+Class 1: 47 (100.0%)
+Loaded best model for evaluation
+
+📈 Evaluating model on test set...
+Evaluating: 100%|██████████| 8/8 [00:00<00:00, 23.21it/s]
+/home/dipanjan/.conda/envs/llama-env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+=== Evaluation Metrics ===
+
+Regression Metrics (PHQ8):
+RMSE: nan
+MAE: nan
+R²: nan
+Pearson r: nan (p=nan)
+
+Classification Metrics (Emotion):
+Accuracy: 0.0000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+
+Confusion Matrix:
+[[ 0  0]
+ [47  0]]
+  Test metrics saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_test_metrics.json
+
+============================================================
+🎉 Training Complete!
+  Best validation RMSE: 0.4710
+  Final validation RMSE: 0.6259
+  Final validation accuracy: 1.0000
+
+
+
+
+
+
+
+
+
+Generative Model:
+
+
+======================================================================
+Epoch 14/60
+======================================================================
+Train Loss: 0.0282
+
+📊 Regression Metrics (PHQ-8 Prediction):
+  RMSE:      1.4766
+  MAE:       1.3936
+  R²:        -8.6777
+  MSE:       2.1805
+
+🎯 Classification Metrics (Depression Detection, PHQ8 >= 10):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+📈 Confusion Matrix:
+  [[35]]
+
+😊 Emotion Classification Metrics:
+  Accuracy:  1.0000
+  F1-Score:  1.0000
+
+⚙️  Learning Rate: 2.84e-05
+
+  No improvement (9/10)
+Epoch 15/60 [Train]: 100%|██████████| 17/17 [00:01<00:00, 12.64it/s, loss=0.0021]
+
+======================================================================
+Epoch 15/60
+======================================================================
+Train Loss: 0.0143
+
+📊 Regression Metrics (PHQ-8 Prediction):
+  RMSE:      0.7868
+  MAE:       0.6693
+  R²:        -1.7474
+  MSE:       0.6190
+
+🎯 Classification Metrics (Depression Detection, PHQ8 >= 10):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+📈 Confusion Matrix:
+  [[35]]
+
+😊 Emotion Classification Metrics:
+  Accuracy:  1.0000
+  F1-Score:  1.0000
+
+⚙️  Learning Rate: 2.80e-05
+
+  No improvement (10/10)
+
+======================================================================
+Early stopping triggered at epoch 15
+Best validation RMSE: 0.4749 at epoch 5
+======================================================================
+
+✓ Best model loaded from memory
+
+💾 Saving results...
+  ✓ Training history saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_history.csv
+
+📈 Final validation evaluation...
+
+======================================================================
+🎉 TRAINING COMPLETE!
+======================================================================
+
+📊 FINAL VALIDATION METRICS:
+
+Regression (PHQ-8 Prediction):
+  RMSE:      0.4749
+  MAE:       0.4164
+  R²:        -0.0010
+  MSE:       0.2255
+
+Classification (Depression Detection):
+  Accuracy:  1.0000
+  F1-Score:  0.0000
+  Precision: 0.0000
+  Recall:    0.0000
+
+Confusion Matrix:
+  [[35]]
+
+Emotion Classification:
+  Accuracy:  1.0000
+  F1-Score:  1.0000
+
+📈 Training Summary:
+  Best RMSE: 0.4749
+  Total epochs: 15
+
+  ✓ Final metrics saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/advanced_multimodal_final_metrics.json
+
+======================================================================
+📁 Output files:
+  - advanced_multimodal_best.pt (if disk write succeeded)
+  - advanced_multimodal_best_predictions.csv
+  - advanced_multimodal_history.csv
+  - advanced_multimodal_final_metrics.json
+
+💡 Note: Best model is loaded in memory and ready for use
+======================================================================
+
+
+==========================================================
+✅ Training completed successfully!
+==========================================================
+Completion time: Sat Oct 18 22:22:09 IST 2025
+Check trained_models/ for saved models
+Check logs/ for detailed training logs
+
+
+
+
+
+
+
+
+
+=== Evaluation Metrics ===
+
+Regression Metrics (PHQ8):
+RMSE: nan
+MAE: nan
+R²: nan
+Pearson r: nan (p=nan)
+
+Classification Metrics (Emotion):
+Accuracy: nan
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+
+Confusion Matrix:
+[]
+  Metrics saved: /home/dipanjan/rugraj/DIAC-WOZ/trained_models/generative_multimodal_metrics.json
+
+============================================================
+🎉 Training Complete!
+  Best validation RMSE: 0.4851
+  Final validation RMSE: 0.6177
+  Final validation accuracy: 1.0000
+============================================================

@@ -1,0 +1,80 @@
+========================================================================
+Job started at: Wed Dec  3 12:10:54 EST 2025
+Job ID: 127615
+Node: gpunode5
+========================================================================
+
+Setting up environment...
+----------------------------------------
+Activating conda environment...
+
+Environment check:
+----------------------------------------
+Python 3.8.8
+PyTorch version: 2.4.1+cu121
+CUDA available: True
+GPU name: NVIDIA H100 80GB HBM3
+GPU memory: 81559 MiB
+
+Checking required files...
+----------------------------------------
+-rw-rw-r--. 1 dipanjan dipanjan 72K Dec  2 13:41 daic_metadata.csv
+-rw-rw-r--. 1 dipanjan dipanjan 190K Dec  2 13:44 acoustic_features.csv
+-rw-rw-r--. 1 dipanjan dipanjan 102K Dec  2 13:45 visual_features.csv
+-rw-rw-r--. 1 dipanjan dipanjan 9.1K Dec  3 07:56 genai_extraction.py
+-rw-rw-r--. 1 dipanjan dipanjan 9.9K Dec  3 07:20 genai_extraction_llama3.py
+-rw-rw-r--. 1 dipanjan dipanjan 6.7K Dec  3 09:00 genai_multimodal.py
+
+========================================================================
+Starting GenAI feature extraction...
+========================================================================
+
+  File "genai_hierarchical_extraction.py", line 183
+    r',\s*"[^"]*":\s*\[(?:[^\]](?!]))*
+                                     ^
+SyntaxError: EOL while scanning string literal
+
+========================================================================
+Job completed at: Wed Dec  3 12:11:02 EST 2025
+Exit code: 0
+========================================================================
+
+✓ Output generated successfully:
+-rw-rw-r--. 1 dipanjan dipanjan 39K Dec  3 09:39 genai_features.csv
+
+Preview:
+participant_id,cognitive_negativity,emotional_flatness,overall_risk,low_engagement,psychomotor_slowing,llm_reasoning,raw_response
+303,0,8,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8,
+
+⚠️  Errors encountered: 5
+First 10 errors:
+[2025-12-03 13:35:55] Participant 343: JSON parse failed. Raw: "cognitive_negativity": 0,
+"emotional_flatness": 0,
+"low_engagement": 0,
+"psychomotor_slowing": 0,
+"...
+
+Final GPU status:
+Wed Dec  3 12:11:02 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.124.06             Driver Version: 570.124.06     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          Off |   00000000:E3:00.0 Off |                    0 |
+| N/A   52C    P0             70W /  700W |       1MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

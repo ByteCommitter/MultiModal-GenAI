@@ -1,0 +1,147 @@
+What is DIAC-WOZ?
+The Distress Analysis Interview Corpus Wizard-of-Oz (DAIC-WOZ) database is collected by University of California, which contains clinical interviews designed to support the diagnosis of psychological distress conditions such as anxiety, depression, and post-traumatic stress disorder. The dataset comprises voice and text samples from 189 interviewed healthy and control persons and their PHQ-8 depression detection questionnaire. GitHubPapers with Code(Could be 188 also)
+
+
+
+Dataset Structure and Characteristics:
+Size and Distribution:
+
+189 sessions with an average duration of 15.9 minutes Automated Depression Recognition Using Multimodal Machine Learning: A Study on the DAIC-WOZ Dataset
+188 dialogue texts, with a specific distribution of 106 for the training set, 47 for the test set, and 35 for the validation set.
+
+Each answer of the patient in the dialogue of the dataset is extracted. There are 6111 answers in the training set, 2686 answers in the test set Identification of depression state based on multi‐scale acoustic features in interrogation environment - Huang - 2023 - IET Signal Processing - Wiley Online Library
+
+142 participants interacting with a human-controlled virtual agent Improving speech depression detection using transfer learning with wav2vec 2.0 in low-resource environments | Scientific Reports (note: there's some variation in reported participant numbers across sources)
+
+
+
+
+Multimodal Nature:
+The DAIC-WOZ dataset is truly multimodal, containing:
+
+Audio data - Speech recordings from clinical interviews
+Video data - Visual recordings including facial expressions and non-verbal cues
+Text data - Transcribed interview dialogues
+Clinical labels - PHQ-8 depression questionnaire scores for ground truth
+
+
+
+
+Interview Structure:
+
+Audiovisual recordings of participants interacting with a human-controlled virtual agent, designed to diagnose psychological distress conditions such as anxiety, depression, and PTSD Improving speech depression detection using transfer learning with wav2vec 2.0 in low-resource environments | Scientific Reports
+Semi-structured clinical interviews conducted in controlled settings
+The dataset contains many errors and noise (such as interruptions during an interview or missing transcript files for the virtual agent) GitHub - adbailey1/daic_woz_process
+
+Extended Version (E-DAIC)
+E-DAIC is an extension of the DAIC-WOZ dataset and includes semi-clinical interviews intended to assist in diagnosing psychological distress conditions, including depression, anxiety, and post-traumatic stress disorder. This dataset was also utilised in the AVEC 2019 challenge.
+Research Applications
+The DAIC-WOZ dataset has been extensively used for:
+
+Multi-modal approaches (text + speech + video) Automatic recognition of depression based on audio and video: A review for depression detection
+Automated depression recognition using machine learning
+Clinical interviews and survey evaluations from over a hundred individuals, the study employs machine learning algorithms to automate and enhance depression recognition Scoping Review on the Multimodal Classification of Depression and Experimental Study on Existing Multimodal Models - PMC
+AVEC (Audio-Visual Emotion Recognition) challenges
+
+
+
+
+Other Possible datasets I was thinking of:
+CMU-MOSEI - it's the largest available multimodal dataset and will give you much more robust training. 
+
+E-DAIC (Extended DAIC-WOZ):	
+Size: 275 samples, which is larger than DAIC-WOZ with 189 samples Harnessing multimodal approaches for depression detection using LLMs
+
+CMU-MOSI [Modalities: Text, audio, video]
+Size: 2199 opinion video clips. Each opinion video is annotated with sentiment in the range [-3,3] NaturearXiv
+
+MELD (Multimodal EmotionLines Dataset) [friends]
+Size: ~13,000 utterances from 1,433 dialogues
+Modalities: Text, audio, video
+
+
+MultiWoz(surprisingly small)
+IEMOCAP
+
+
+
+Existing Approach Notes:
+
+
+Comparison with new Approaches:
+Perfect! Now I can see all three approaches clearly. Let me break down the key differences between your current LoRA approach and these two alternatives:
+1. Current LoRA Code vs Open Source Method
+Current (LoRA) Approach:
+
+Text: LoRA-fine-tuned BERT-base with parameter-efficient training
+Audio: Simple mean/median pooling of COVAREP features → direct projection
+Video: Simple pooling of Action Units → direct projection
+Fusion: Basic concatenation → MLP
+Training: Single-task PHQ-8 regression only
+
+Open Source Method:
+
+Text: Full RoBERTa-base (frozen except last 2 layers)
+Audio: Wav2Vec2 for raw audio + COVAREP features (dual audio processing!)
+Video: Same Action Units as current
+Fusion: Cross-modal attention (ViLBERT-style) - much more sophisticated
+Training: Advanced metrics (RMSE, MAE, Pearson), learning rate scheduling
+
+Key Advantages of Open Source:
+
+Dual audio processing: Raw audio (Wav2Vec2) + engineered features (COVAREP)
+Cross-modal attention: Models interactions between modalities
+Better text model: RoBERTa often outperforms BERT
+More robust training: Advanced scheduling, gradient clipping
+
+
+2. Current LoRA Code vs Custom Architecture
+Current (LoRA) Approach:
+
+Generic features: Standard BERT embeddings, raw COVAREP/AU features
+Simple fusion: Concatenation-based
+Single task: PHQ-8 regression only
+No domain knowledge: Doesn't leverage depression research
+
+Custom Architecture:
+
+Depression-specific features: Hand-crafted features based on clinical research
+
+Text: 20 depression markers (negative emotions, cognitive words, first-person pronouns, etc.)
+Audio: 15 prosodic/voice quality features linked to depression
+Video: 12 facial expression patterns associated with depression
+
+
+Custom embeddings: Own vocabulary + positional encoding
+Multi-task learning: PHQ-8 regression + binary classification
+Attention analysis: Interprets which modalities matter most
+Domain-aware: Built specifically for depression detection
+
+Key Advantages of Custom:
+
+Clinical grounding: Features based on depression literature
+Interpretability: Can see which depression markers fire
+Multi-task robustness: Joint regression + classification often performs better
+Lightweight: Much smaller model, faster training
+Analysis tools: Built-in attention visualization
+
+
+Architecture Comparison Summary:
+AspectCurrent (LoRA)Open SourceCustomText ProcessingLoRA BERTRoBERTa + freezingCustom embeddings + LSTMAudio ProcessingCOVAREP poolingWav2Vec2 + COVAREPDepression-specific featuresVideo ProcessingAU poolingAU poolingDepression-specific AU patternsFusion StrategyConcatenationCross-modal attentionAttention-weighted fusionTraining ApproachSingle-taskSingle-task advancedMulti-taskDomain KnowledgeNoneMinimalHeavy clinical groundingModel SizeMedium (LoRA)Large (full transformers)Small (custom)InterpretabilityLowLowHighTraining SpeedMediumSlowFast
+Which Approach When?
+
+LoRA (Current): Good balance, parameter-efficient, standard approach
+Open Source: When you want state-of-the-art performance and have compute resources
+Custom: When you need interpretability, have domain expertise, or want fast prototyping
+
+The custom architecture is particularly interesting because it encodes clinical knowledge about depression directly into the feature extractors - this could be very powerful for this specific task!
+
+
+
+
+
+
+
+
+
+

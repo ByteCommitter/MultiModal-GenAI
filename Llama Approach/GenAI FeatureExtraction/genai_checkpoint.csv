@@ -1,0 +1,1959 @@
+participant_id,cognitive_negativity,emotional_flatness,overall_risk,low_engagement,psychomotor_slowing,llm_reasoning,raw_response
+303,0,8,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient's trans"
+304,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.7,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+305,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6.5
+}
+
+Analysis:
+
+1. The patient's transcript appears "
+310,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.6,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.3,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+312,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 7
+}
+
+The patient's transcript shows a mix of positive "
+313,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.5,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+The patient's transcript shows some positive stat"
+315,6,8,7,4,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient's thought"
+316,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.6,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.5,
+""psychomotor_slowing"": 0.4,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+317,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.6,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.5,
+  ""psychomotor_slowing"": 0.4,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The"
+318,6,8,8,4,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript suggests a mix of positive and n"
+319,6,8,7,4,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient's transc"
+320,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 6.5
+}
+
+Rationale:
+
+1. Cognitive Negativity: "
+321,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.6,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient "
+322,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The "
+324,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.6,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+The patient's transcript shows a mix of positive "
+325,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+326,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.6,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+327,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0, 
+""overall_risk"": 7
+}
+
+**Reasoning:**
+
+1. Cognitive Negativity: The patie"
+328,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+330,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient'"
+336,6,8,7,4,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+The patient's transcript suggests a mixed presentation, w"
+338,4,8,7,5,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 4,
+""emotional_flatness"": 8,
+""low_engagement"": 5,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+The patient's transcript contains a mix of positive and n"
+339,6,8,8,4,2,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 8
+}
+
+The patient's transcript transcript suggests a mixed pre"
+340,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.6,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+Analysis:
+
+The patient's transcript shows a mix o"
+343,2,8,6,1,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 2,
+""emotional_flatness"": 8,
+""low_engagement"": 1,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient's respons"
+344,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.7,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 6
+}
+
+The patient's transcript shows a mix of"
+345,0,0,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient "
+347,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient's"
+348,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+The patient's transcript suggests a positive to"
+350,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient's"
+351,0,8,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8,
+""low_engagement"": 0.5,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's t"
+352,0,0,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.85,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 8
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient"
+353,2,8,7,1,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 2,
+""emotional_flatness"": 8,
+""low_engagement"": 1,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+The patient's transcript suggests a generally positive to"
+355,6,8,8,4,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 6,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 4,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient"
+356,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+The patient's transcript suggests a mix of neutra"
+357,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.7,
+""psychomotor_slowing"": 0.4,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+358,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+360,2,8,7,1,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 2,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 1,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 7
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patien"
+362,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 6.5
+}
+
+Reasoning:
+
+* Cognitive Negativity: T"
+363,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.4, 
+""emotional_flatness"": 0.8, 
+""low_engagement"": 0.2, 
+""psychomotor_slowing"": 0.1, 
+""overall_risk"": 7
+}
+
+The patient's transcript suggests a generally"
+364,2,8,6,1,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 2,
+""emotional_flatness"": 8,
+""low_engagement"": 1,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript suggests a generally positive to"
+366,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript suggests a positive tone, mentio"
+368,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.8,
+  ""emotional_flatness"": 0.9,
+  ""low_engagement"": 0.6,
+  ""psychomotor_slowing"": 0.4,
+  ""overall_risk"": 7
+}
+
+Rationale:
+
+1. Cognitive Negativity: Th"
+369,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript suggests a positive and enth"
+370,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.4,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+371,2,8,8,4,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 2,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient's transc"
+372,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6.5
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient"
+374,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient's"
+375,6,8,7,4,2,,"### JSON RESULTS ###
+
+{
+  ""cognitive_negativity"": 6,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 4,
+  ""psychomotor_slowing"": 2,
+  ""overall_risk"": 7
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patie"
+376,4,8,8,6,0,,"### JSON RESULTS ###
+
+{
+  ""cognitive_negativity"": 4,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 6,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+**Analysis:**
+
+The patient's transcript sugges"
+379,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.9,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7.2
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patie"
+380,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient"
+383,0,0,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6.5
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patie"
+385,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.8,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.5,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6.5
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patien"
+391,6,8,7,5,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 5,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+The patient's transcript indicates a mix of neutral and s"
+392,4,8,6,2,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 4,
+""emotional_flatness"": 8,
+""low_engagement"": 2,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's though"
+393,2,8,6,1,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 2,
+""emotional_flatness"": 8,
+""low_engagement"": 1,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript suggests a mix of positive state"
+397,6,8,7,5,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 5,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's though"
+400,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+401,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient"
+409,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.7,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 6
+}
+
+The patient's transcript appears to be "
+412,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Rationale:
+
+* Cognitive negativity: The patient's"
+416,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+The patient's transcript suggests a mix"
+419,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Analysis:
+
+The patient's transcript suggests a "
+423,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 6
+}
+
+Analysis:
+
+The patient's transcript suggests a mix "
+425,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+The patient's transcript shows a mix of positive "
+426,6,8,7,4,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+The patient's transcript indicates a mix of positive and "
+427,4,8,7,2,1,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 4,
+""emotional_flatness"": 8,
+""low_engagement"": 2,
+""psychomotor_slowing"": 1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's transc"
+428,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.6,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.4,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 6
+}
+
+The patient's transcript shows a mix of"
+429,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+430,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient'"
+434,0,7,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 7,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 7
+}
+
+The patient's transcript suggests a positive an"
+437,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+441,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient's "
+443,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.5,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+444,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+445,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient m"
+446,0,8,8,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript shows a high level of positivit"
+447,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+Rationale:
+
+* Cognitive negativity: The patient's transcr"
+448,6,8,7,5,4,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 5,
+""psychomotor_slowing"": 4,
+""overall_risk"": 7
+}
+
+Rationale:
+
+* Cognitive negativity: The patient's thought"
+449,0,0,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient'"
+454,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+455,0,7,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 7,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Rationale:
+
+* Cognitive negativity: 0, as the patient's t"
+456,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 7.0
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patien"
+457,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.4,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+The patient's transcript appears to be "
+459,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.85,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient"
+463,0,8,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript suggests a generally positive ou"
+464,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+The patient's transcript exhibits a mismatch be"
+468,0,8,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": ""0"",
+  ""emotional_flatness"": ""8"",
+  ""low_engagement"": ""0"",
+  ""psychomotor_slowing"": ""0"",
+  ""overall_risk"": ""6""
+}
+
+Reasoning:
+
+* Cognitive Negativity: T"
+471,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6.5
+}
+
+The patient's transcript transcript excerpt sug"
+473,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+Rationale:
+
+* Cognitive Negativity: 0 (The patient's thou"
+474,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+The patient's transcript shows a mix of positiv"
+475,0,8,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. The patient's transcript excer"
+478,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+479,6,8,7,4,2,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's though"
+485,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.4,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive negativity: The"
+486,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.7,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 7
+}
+
+The patient's transcript shows a mix of"
+487,0,8,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript transcript excerpt appears to be"
+488,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6.5
+}
+
+The patient's transcript suggests that they are"
+491,7,8,8,4,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 7,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript appears to be positive, mentioni"
+302,0,8,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+**Reasoning:**
+
+1. Cognitive Negativity: The patient"
+307,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+331,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's"
+335,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+The patient's transcript suggests a positive an"
+346,6,8,8,7,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 7,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript suggests a mix of positive and "
+367,6,8,7,2,1,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 6,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 2,
+  ""psychomotor_slowing"": 1,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patien"
+377,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Analysis:
+
+* The patient's transcript text appe"
+381,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.9,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+The patient's transcript appears to be "
+382,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0, 
+""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's"
+388,6,8,8,4,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient's speech"
+389,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.6,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.4,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 7
+}
+
+Rationale:
+
+* Cognitive Negativity: The"
+390,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient m"
+395,0,0,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+Analysis:
+
+1. TRANSCRIPT EXCERPT:
+The patient's "
+403,0,7,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 7,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 7
+}
+
+Analysis:
+
+The patient's transcript transcript "
+404,0,8,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 8.5,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7.8
+}
+
+Reasoning:
+
+1. Cognitive Negativity: "
+406,0,8,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript shows some positive statemen"
+417,0,8,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8.0,
+""low_engagement"": 0.0,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 6.5
+}
+
+The patient's transcript exhibits a mix of pos"
+418,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript suggests a generally positive to"
+420,0,8,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient"
+422,0,0,6,0,0,,"### JSON RESULTS ###
+
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.7,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 6.5
+}
+
+Reasoning:
+
+* Cognitive negativity: "
+436,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6.5
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient"
+439,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Reasoning:
+
+* The patient's transcript shows a "
+440,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.4,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 6
+}
+
+The patient's transcript shows a mix of positive "
+451,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+458,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 6
+}
+
+Analysis:
+
+1. The patient's transcript "
+472,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.0,
+  ""overall_risk"": 7
+}
+
+The patient's transcript shows a mix of"
+476,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.0,
+  ""overall_risk"": 7.5
+}
+
+Reasoning:
+
+1. The patient's transcri"
+477,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.7,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+482,0,8,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 6
+}
+
+The patient's transcript suggests a generally p"
+483,0,0,6,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient'"
+490,0,8,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient's th"
+492,4,8,8,6,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 4,
+""emotional_flatness"": 8,
+""low_engagement"": 6,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript suggests a positive and optimis"
+300,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient'"
+301,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.4,
+  ""emotional_flatness"": 0.9,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 7
+}
+
+The patient's transcript suggests a pos"
+306,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+308,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.6,
+""psychomotor_slowing"": 0.4,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient "
+309,7,8,8,6,4,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 7,
+""emotional_flatness"": 8,
+""low_engagement"": 6,
+""psychomotor_slowing"": 4,
+""overall_risk"": 8
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's though"
+311,6,8,7,4,2,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 6,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 4,
+  ""psychomotor_slowing"": 2,
+  ""overall_risk"": 7
+}
+
+The patient's transcript shows some positive st"
+314,0,8,8,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript shows a generally positive tone"
+329,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient"
+332,0,0,8,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 8
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient"
+334,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 6
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+337,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript suggests a positive and optimist"
+349,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive Negativity: The"
+354,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.6,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+The patient's transcript transcript excerpt sugg"
+359,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.8,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.5,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7.5
+}
+
+**Reasoning:**
+
+* Cognitive Negativity: The pa"
+365,0,0,6,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.5,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.3,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 6.5
+}
+
+Reasoning:
+
+* Cognitive negativity: T"
+373,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+The patient's transcript appears to be positive, with the"
+378,0,8,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 6
+}
+
+The patient's transcript suggests a positive and optimist"
+384,6,8,7,4,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's transc"
+387,0,7,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 7,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 7
+}
+
+The patient's transcript indicates a generally "
+399,6,8,8,4,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+Rationale:
+
+1. Cognitive Negativity: The patient's transc"
+407,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.3,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+The patient's transcript suggests a positive tone, "
+408,0,7,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 7,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient's transc"
+410,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.6,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.2,
+  ""psychomotor_slowing"": 0.1,
+  ""overall_risk"": 7
+}
+
+The patient's transcript contains some "
+411,0,0,6,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 6.5
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient"
+421,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 0,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+The patient's transcript suggests a generally p"
+431,0,8,8,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": ""0"",
+  ""emotional_flatness"": ""8"",
+  ""low_engagement"": ""0"",
+  ""psychomotor_slowing"": ""0"",
+  ""overall_risk"": ""8""
+}
+
+Rationale:
+
+1. Cognitive Negativity: "
+432,2,8,6,4,1,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 2,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 1,
+""overall_risk"": 6
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's transcr"
+435,6,8,7,4,3,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 3,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient's though"
+438,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.1,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+* Cognitive negativity: The patient's"
+442,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.2,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 7
+}
+
+The patient's transcript shows a mix of positive"
+450,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.5,
+""emotional_flatness"": 0.75,
+""low_engagement"": 0.25,
+""psychomotor_slowing"": 0.0,
+""overall_risk"": 7.5
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The pati"
+452,0,0,7,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.8,
+""emotional_flatness"": 0.9,
+""low_engagement"": 0.7,
+""psychomotor_slowing"": 0.5,
+""overall_risk"": 7.5
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patien"
+453,2,8,8,1,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 2,
+  ""emotional_flatness"": 8,
+  ""low_engagement"": 1,
+  ""psychomotor_slowing"": 0,
+  ""overall_risk"": 8
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patien"
+461,0,0,8,0,0,,"### JSON RESULTS ###
+
+{
+""cognitive_negativity"": 0.8,
+""emotional_flatness"": 0.9,
+""low_engagement"": 0.6,
+""psychomotor_slowing"": 0.4,
+""overall_risk"": 8
+}
+
+The patient's transcript shows a mix of positive"
+462,0,0,7,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0.7,
+""emotional_flatness"": 0.8,
+""low_engagement"": 0.4,
+""psychomotor_slowing"": 0.2,
+""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: The patient'"
+465,6,8,6,4,2,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 6,
+""emotional_flatness"": 8,
+""low_engagement"": 4,
+""psychomotor_slowing"": 2,
+""overall_risk"": 6
+}
+
+Rationale:
+
+* Cognitive Negativity: The patient's text tr"
+466,0,0,7,0,0,,"### JSON RESULTS ###
+{
+  ""cognitive_negativity"": 0.6,
+  ""emotional_flatness"": 0.8,
+  ""low_engagement"": 0.4,
+  ""psychomotor_slowing"": 0.2,
+  ""overall_risk"": 7
+}
+
+Reasoning:
+
+1. Cognitive Negativity: Th"
+467,0,8,8,0,0,,"### JSON RESULTS ###
+{
+""cognitive_negativity"": 0,
+""emotional_flatness"": 8,
+""low_engagement"": 0,
+""psychomotor_slowing"": 0,
+""overall_risk"": 8
+}
+
+Reasoning:
+
+* Cognitive Negativity: The patient's transcr"
