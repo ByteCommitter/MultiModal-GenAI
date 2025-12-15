@@ -1,89 +1,0 @@
-========================================================================
-Job started at: Tue Dec  2 14:11:50 EST 2025
-Job ID: 127433
-Node: gpunode5
-========================================================================
-
-Setting up environment...
-----------------------------------------
-Activating conda environment...
-
-Environment check:
-----------------------------------------
-Python 3.8.8
-PyTorch version: 2.4.1+cu121
-CUDA available: True
-GPU name: NVIDIA H100 80GB HBM3
-GPU memory: 81559 MiB
-
-Checking required files...
-----------------------------------------
--rw-rw-r--. 1 dipanjan dipanjan 72K Dec  2 13:41 daic_metadata.csv
--rw-rw-r--. 1 dipanjan dipanjan 190K Dec  2 13:44 acoustic_features.csv
--rw-rw-r--. 1 dipanjan dipanjan 102K Dec  2 13:45 visual_features.csv
--rw-rw-r--. 1 dipanjan dipanjan 11K Dec  2 14:11 genai_extraction.py
-
-========================================================================
-Starting GenAI feature extraction...
-========================================================================
-
-/home/dipanjan/.local/lib/python3.8/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
-  warnings.warn(
-
-======================================================================
-GenAI Feature Extraction - Llama-2-7b-chat-hf
-======================================================================
-
-✓ Found 189 participants in metadata
-
-Loading Llama-2-7b-chat-hf model...
-Model path: /home/dipanjan/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590
-Loading model onto GPU...
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.80s/it]
-======================================================================
-EXTRACTING GenAI FEATURES
-======================================================================
-
-Processing:   0%|          | 0/189 [00:00<?, ?it/s]Processing:   1%|          | 1/189 [00:03<10:54,  3.48s/it]Processing:   1%|          | 2/189 [00:04<06:56,  2.23s/it]Processing:   2%|▏         | 3/189 [00:06<05:39,  1.83s/it]Processing:   2%|▏         | 4/189 [00:07<05:03,  1.64s/it]Processing:   3%|▎         | 5/189 [00:08<04:41,  1.53s/it]Processing:   3%|▎         | 6/189 [00:10<04:28,  1.47s/it]Processing:   4%|▎         | 7/189 [00:11<04:19,  1.43s/it]Processing:   4%|▍         | 8/189 [00:12<04:13,  1.40s/it]Processing:   5%|▍         | 9/189 [00:14<04:09,  1.38s/it]Processing:   5%|▌         | 10/189 [00:15<04:06,  1.38s/it]Processing:   6%|▌         | 11/189 [00:16<04:03,  1.37s/it]Processing:   6%|▋         | 12/189 [00:18<04:00,  1.36s/it]Processing:   7%|▋         | 13/189 [00:19<03:58,  1.35s/it]Processing:   7%|▋         | 14/189 [00:20<03:56,  1.35s/it]Processing:   8%|▊         | 15/189 [00:22<03:54,  1.35s/it]Processing:   8%|▊         | 16/189 [00:23<03:53,  1.35s/it]Processing:   9%|▉         | 17/189 [00:25<03:51,  1.35s/it]Processing:  10%|▉         | 18/189 [00:26<03:50,  1.35s/it]Processing:  10%|█         | 19/189 [00:27<03:48,  1.34s/it]Processing:  11%|█         | 20/189 [00:29<03:47,  1.35s/it]Processing:  11%|█         | 21/189 [00:30<03:46,  1.35s/it]Processing:  12%|█▏        | 22/189 [00:31<03:44,  1.35s/it]Processing:  12%|█▏        | 23/189 [00:33<03:43,  1.35s/it]Processing:  13%|█▎        | 24/189 [00:34<03:41,  1.34s/it]Processing:  13%|█▎        | 25/189 [00:35<03:40,  1.35s/it]Processing:  14%|█▍        | 26/189 [00:37<03:39,  1.35s/it]Processing:  14%|█▍        | 27/189 [00:38<03:38,  1.35s/it]Processing:  15%|█▍        | 28/189 [00:39<03:36,  1.35s/it]Processing:  15%|█▌        | 29/189 [00:41<03:35,  1.35s/it]Processing:  16%|█▌        | 30/189 [00:42<03:34,  1.35s/it]Processing:  16%|█▋        | 31/189 [00:43<03:32,  1.35s/it]Processing:  17%|█▋        | 32/189 [00:45<03:31,  1.35s/it]Processing:  17%|█▋        | 33/189 [00:46<03:29,  1.34s/it]Processing:  18%|█▊        | 34/189 [00:47<03:28,  1.35s/it]Processing:  19%|█▊        | 35/189 [00:49<03:27,  1.34s/it]Processing:  19%|█▉        | 36/189 [00:50<03:25,  1.34s/it]Processing:  20%|█▉        | 37/189 [00:51<03:24,  1.34s/it]Processing:  20%|██        | 38/189 [00:53<03:22,  1.34s/it]Processing:  21%|██        | 39/189 [00:54<03:21,  1.34s/it]Processing:  21%|██        | 40/189 [00:55<03:21,  1.35s/it]Processing:  22%|██▏       | 41/189 [00:57<03:19,  1.35s/it]Processing:  22%|██▏       | 42/189 [00:58<03:18,  1.35s/it]Processing:  23%|██▎       | 43/189 [01:00<03:16,  1.35s/it]Processing:  23%|██▎       | 44/189 [01:01<03:15,  1.35s/it]Processing:  24%|██▍       | 45/189 [01:02<03:13,  1.35s/it]Processing:  24%|██▍       | 46/189 [01:04<03:12,  1.35s/it]Processing:  25%|██▍       | 47/189 [01:05<03:10,  1.34s/it]Processing:  25%|██▌       | 48/189 [01:06<03:09,  1.34s/it]Processing:  26%|██▌       | 49/189 [01:08<03:08,  1.34s/it]Processing:  26%|██▋       | 50/189 [01:09<03:07,  1.35s/it]Processing:  27%|██▋       | 51/189 [01:10<03:05,  1.35s/it]Processing:  28%|██▊       | 52/189 [01:12<03:04,  1.35s/it]Processing:  28%|██▊       | 53/189 [01:13<03:02,  1.35s/it]Processing:  29%|██▊       | 54/189 [01:14<03:01,  1.35s/it]Processing:  29%|██▉       | 55/189 [01:16<03:00,  1.35s/it]Processing:  30%|██▉       | 56/189 [01:17<02:58,  1.34s/it]Processing:  30%|███       | 57/189 [01:18<02:57,  1.34s/it]Processing:  31%|███       | 58/189 [01:20<02:56,  1.34s/it]Processing:  31%|███       | 59/189 [01:21<02:54,  1.34s/it]Processing:  32%|███▏      | 60/189 [01:22<02:54,  1.35s/it]Processing:  32%|███▏      | 61/189 [01:24<02:53,  1.35s/it]Processing:  33%|███▎      | 62/189 [01:25<02:51,  1.35s/it]Processing:  33%|███▎      | 63/189 [01:26<02:49,  1.35s/it]Processing:  34%|███▍      | 64/189 [01:28<02:48,  1.35s/it]Processing:  34%|███▍      | 65/189 [01:29<02:46,  1.34s/it]Processing:  35%|███▍      | 66/189 [01:30<02:45,  1.34s/it]Processing:  35%|███▌      | 67/189 [01:32<02:43,  1.34s/it]Processing:  36%|███▌      | 68/189 [01:33<02:42,  1.34s/it]Processing:  37%|███▋      | 69/189 [01:34<02:41,  1.34s/it]Processing:  37%|███▋      | 70/189 [01:36<02:41,  1.36s/it]Processing:  38%|███▊      | 71/189 [01:37<02:39,  1.36s/it]Processing:  38%|███▊      | 72/189 [01:39<02:38,  1.35s/it]Processing:  39%|███▊      | 73/189 [01:40<02:36,  1.35s/it]Processing:  39%|███▉      | 74/189 [01:41<02:34,  1.35s/it]Processing:  40%|███▉      | 75/189 [01:43<02:33,  1.35s/it]Processing:  40%|████      | 76/189 [01:44<02:31,  1.34s/it]Processing:  41%|████      | 77/189 [01:45<02:30,  1.34s/it]Processing:  41%|████▏     | 78/189 [01:47<02:29,  1.34s/it]Processing:  42%|████▏     | 79/189 [01:48<02:27,  1.34s/it]Processing:  42%|████▏     | 80/189 [01:49<02:26,  1.35s/it]Processing:  43%|████▎     | 81/189 [01:51<02:25,  1.34s/it]Processing:  43%|████▎     | 82/189 [01:52<02:24,  1.35s/it]Processing:  44%|████▍     | 83/189 [01:53<02:22,  1.35s/it]Processing:  44%|████▍     | 84/189 [01:55<02:21,  1.34s/it]Processing:  45%|████▍     | 85/189 [01:56<02:19,  1.34s/it]Processing:  46%|████▌     | 86/189 [01:57<02:18,  1.34s/it]Processing:  46%|████▌     | 87/189 [01:59<02:16,  1.34s/it]Processing:  47%|████▋     | 88/189 [02:00<02:15,  1.34s/it]Processing:  47%|████▋     | 89/189 [02:01<02:14,  1.34s/it]Processing:  48%|████▊     | 90/189 [02:03<02:13,  1.34s/it]Processing:  48%|████▊     | 91/189 [02:04<02:11,  1.34s/it]Processing:  49%|████▊     | 92/189 [02:05<02:10,  1.34s/it]Processing:  49%|████▉     | 93/189 [02:07<02:08,  1.34s/it]Processing:  50%|████▉     | 94/189 [02:08<02:07,  1.34s/it]Processing:  50%|█████     | 95/189 [02:09<02:06,  1.34s/it]Processing:  51%|█████     | 96/189 [02:11<02:05,  1.34s/it]Processing:  51%|█████▏    | 97/189 [02:12<02:03,  1.34s/it]Processing:  52%|█████▏    | 98/189 [02:14<02:02,  1.34s/it]Processing:  52%|█████▏    | 99/189 [02:15<02:00,  1.34s/it]Processing:  53%|█████▎    | 100/189 [02:16<01:59,  1.35s/it]Processing:  53%|█████▎    | 101/189 [02:18<01:58,  1.35s/it]Processing:  54%|█████▍    | 102/189 [02:19<01:56,  1.34s/it]Processing:  54%|█████▍    | 103/189 [02:20<01:55,  1.34s/it]Processing:  55%|█████▌    | 104/189 [02:22<01:54,  1.34s/it]Processing:  56%|█████▌    | 105/189 [02:23<01:52,  1.34s/it]Processing:  56%|█████▌    | 106/189 [02:24<01:51,  1.34s/it]Processing:  57%|█████▋    | 107/189 [02:26<01:50,  1.34s/it]Processing:  57%|█████▋    | 108/189 [02:27<01:48,  1.34s/it]Processing:  58%|█████▊    | 109/189 [02:28<01:47,  1.34s/it]Processing:  58%|█████▊    | 110/189 [02:30<01:46,  1.34s/it]Processing:  59%|█████▊    | 111/189 [02:31<01:44,  1.34s/it]Processing:  59%|█████▉    | 112/189 [02:32<01:43,  1.35s/it]Processing:  60%|█████▉    | 113/189 [02:34<01:42,  1.34s/it]Processing:  60%|██████    | 114/189 [02:35<01:40,  1.34s/it]Processing:  61%|██████    | 115/189 [02:36<01:39,  1.34s/it]Processing:  61%|██████▏   | 116/189 [02:38<01:38,  1.34s/it]Processing:  62%|██████▏   | 117/189 [02:39<01:36,  1.34s/it]Processing:  62%|██████▏   | 118/189 [02:40<01:35,  1.34s/it]Processing:  63%|██████▎   | 119/189 [02:42<01:34,  1.34s/it]Processing:  63%|██████▎   | 120/189 [02:43<01:34,  1.38s/it]Processing:  64%|██████▍   | 121/189 [02:45<01:32,  1.37s/it]Processing:  65%|██████▍   | 122/189 [02:46<01:31,  1.36s/it]Processing:  65%|██████▌   | 123/189 [02:47<01:29,  1.36s/it]Processing:  66%|██████▌   | 124/189 [02:49<01:27,  1.35s/it]Processing:  66%|██████▌   | 125/189 [02:50<01:26,  1.35s/it]Processing:  67%|██████▋   | 126/189 [02:51<01:24,  1.35s/it]Processing:  67%|██████▋   | 127/189 [02:53<01:23,  1.35s/it]Processing:  68%|██████▊   | 128/189 [02:54<01:22,  1.35s/it]Processing:  68%|██████▊   | 129/189 [02:55<01:20,  1.34s/it]Processing:  69%|██████▉   | 130/189 [02:57<01:19,  1.35s/it]Processing:  69%|██████▉   | 131/189 [02:58<01:18,  1.35s/it]Processing:  70%|██████▉   | 132/189 [02:59<01:16,  1.34s/it]Processing:  70%|███████   | 133/189 [03:01<01:15,  1.34s/it]Processing:  71%|███████   | 134/189 [03:02<01:13,  1.34s/it]Processing:  71%|███████▏  | 135/189 [03:03<01:12,  1.34s/it]Processing:  72%|███████▏  | 136/189 [03:05<01:11,  1.34s/it]Processing:  72%|███████▏  | 137/189 [03:06<01:09,  1.34s/it]Processing:  73%|███████▎  | 138/189 [03:07<01:08,  1.34s/it]Processing:  74%|███████▎  | 139/189 [03:09<01:07,  1.34s/it]Processing:  74%|███████▍  | 140/189 [03:10<01:06,  1.35s/it]Processing:  75%|███████▍  | 141/189 [03:11<01:04,  1.35s/it]Processing:  75%|███████▌  | 142/189 [03:13<01:03,  1.35s/it]Processing:  76%|███████▌  | 143/189 [03:14<01:01,  1.35s/it]Processing:  76%|███████▌  | 144/189 [03:15<01:00,  1.34s/it]Processing:  77%|███████▋  | 145/189 [03:17<00:59,  1.34s/it]Processing:  77%|███████▋  | 146/189 [03:18<00:57,  1.34s/it]Processing:  78%|███████▊  | 147/189 [03:19<00:56,  1.34s/it]Processing:  78%|███████▊  | 148/189 [03:21<00:55,  1.34s/it]Processing:  79%|███████▉  | 149/189 [03:22<00:53,  1.34s/it]Processing:  79%|███████▉  | 150/189 [03:24<00:52,  1.35s/it]Processing:  80%|███████▉  | 151/189 [03:25<00:51,  1.35s/it]Processing:  80%|████████  | 152/189 [03:26<00:50,  1.35s/it]Processing:  81%|████████  | 153/189 [03:28<00:48,  1.35s/it]Processing:  81%|████████▏ | 154/189 [03:29<00:47,  1.35s/it]Processing:  82%|████████▏ | 155/189 [03:30<00:45,  1.35s/it]Processing:  83%|████████▎ | 156/189 [03:32<00:44,  1.35s/it]Processing:  83%|████████▎ | 157/189 [03:33<00:43,  1.35s/it]Processing:  84%|████████▎ | 158/189 [03:34<00:41,  1.35s/it]Processing:  84%|████████▍ | 159/189 [03:36<00:40,  1.35s/it]Processing:  85%|████████▍ | 160/189 [03:37<00:39,  1.35s/it]Processing:  85%|████████▌ | 161/189 [03:38<00:37,  1.35s/it]Processing:  86%|████████▌ | 162/189 [03:40<00:36,  1.35s/it]Processing:  86%|████████▌ | 163/189 [03:41<00:35,  1.35s/it]Processing:  87%|████████▋ | 164/189 [03:42<00:33,  1.35s/it]Processing:  87%|████████▋ | 165/189 [03:44<00:32,  1.35s/it]Processing:  88%|████████▊ | 166/189 [03:45<00:30,  1.34s/it]Processing:  88%|████████▊ | 167/189 [03:46<00:29,  1.34s/it]Processing:  89%|████████▉ | 168/189 [03:48<00:28,  1.34s/it]Processing:  89%|████████▉ | 169/189 [03:49<00:26,  1.34s/it]Processing:  90%|████████▉ | 170/189 [03:50<00:25,  1.35s/it]Processing:  90%|█████████ | 171/189 [03:52<00:24,  1.35s/it]Processing:  91%|█████████ | 172/189 [03:53<00:22,  1.35s/it]Processing:  92%|█████████▏| 173/189 [03:55<00:21,  1.35s/it]Processing:  92%|█████████▏| 174/189 [03:56<00:20,  1.35s/it]Processing:  93%|█████████▎| 175/189 [03:57<00:18,  1.35s/it]Processing:  93%|█████████▎| 176/189 [03:59<00:17,  1.35s/it]Processing:  94%|█████████▎| 177/189 [04:00<00:16,  1.35s/it]Processing:  94%|█████████▍| 178/189 [04:01<00:14,  1.35s/it]Processing:  95%|█████████▍| 179/189 [04:03<00:13,  1.35s/it]Processing:  95%|█████████▌| 180/189 [04:04<00:12,  1.35s/it]Processing:  96%|█████████▌| 181/189 [04:05<00:10,  1.35s/it]Processing:  96%|█████████▋| 182/189 [04:07<00:09,  1.35s/it]Processing:  97%|█████████▋| 183/189 [04:08<00:08,  1.35s/it]Processing:  97%|█████████▋| 184/189 [04:09<00:06,  1.35s/it]Processing:  98%|█████████▊| 185/189 [04:11<00:05,  1.35s/it]Processing:  98%|█████████▊| 186/189 [04:12<00:04,  1.35s/it]Processing:  99%|█████████▉| 187/189 [04:13<00:02,  1.35s/it]Processing:  99%|█████████▉| 188/189 [04:15<00:01,  1.35s/it]Processing: 100%|██████████| 189/189 [04:16<00:00,  1.34s/it]Processing: 100%|██████████| 189/189 [04:16<00:00,  1.36s/it]
-
-✓ Saved 189 records to: /home/dipanjan/rugraj/DIAC-WOZ/genai_features.csv
-
-========================================================================
-Job completed at: Tue Dec  2 14:16:27 EST 2025
-Exit code: 0
-========================================================================
-
-✓ Output generated successfully:
--rw-rw-r--. 1 dipanjan dipanjan 27K Dec  2 14:16 genai_features.csv
-
-Preview:
-participant_id,cognitive_negativity,emotional_flatness,low_engagement,psychomotor_slowing,overall_risk,raw_response
-303,8,6,7,5,9,"""cognitive_negativity"": 8,
-""emotional_flatness"": 6,
-""low_engagement"": 7,
-""psychomotor_slowing"": 5,
-
-⚠️  Errors encountered: 0
-First 10 errors:
-
-Final GPU status:
-Tue Dec  2 14:16:27 2025       
-+-----------------------------------------------------------------------------------------+
-| NVIDIA-SMI 570.124.06             Driver Version: 570.124.06     CUDA Version: 12.8     |
-|-----------------------------------------+------------------------+----------------------+
-| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
-|                                         |                        |               MIG M. |
-|=========================================+========================+======================|
-|   0  NVIDIA H100 80GB HBM3          Off |   00000000:E3:00.0 Off |                    0 |
-| N/A   39C    P0            141W /  700W |       1MiB /  81559MiB |     36%      Default |
-|                                         |                        |             Disabled |
-+-----------------------------------------+------------------------+----------------------+
-                                                                                         
-+-----------------------------------------------------------------------------------------+
-| Processes:                                                                              |
-|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
-|        ID   ID                                                               Usage      |
-|=========================================================================================|
-|  No running processes found                                                             |
-+-----------------------------------------------------------------------------------------+
